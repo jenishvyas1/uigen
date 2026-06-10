@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright@latest screenshot --browser chromium --full-page http://localhost:3000 /tmp/uigen-fixed.png)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(npx vitest *)",
+      "mcp__playwright",
+      "Skill(run)",
+      "Bash(npx playwright *)",
+      "Bash(npm list *)",
+      "Bash(npm audit *)",
+      "Bash(npm install *)",
+      "Bash(npm test *)",
+      "Bash(node -e \"const ai = require\\('ai'\\); console.log\\(Object.keys\\(ai\\).filter\\(k => k.includes\\('Chat'\\) || k.includes\\('chat'\\)\\)\\)\")"
+    ]
+  }
+}
